@@ -52,7 +52,7 @@ void ofApp::mousePressed(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+    ofBackground(ofRandom(255),ofRandom(255),ofRandom(255));
 }
 
 //--------------------------------------------------------------
