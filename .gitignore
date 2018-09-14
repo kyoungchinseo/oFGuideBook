@@ -1,32 +1,50 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
+
+# Folder
+
+*/bin/*
+!*/bin/data/
+
+# General
+
+*/[Bb]uild/
+*/[Oo]bj/
 *.o
-*.obj
+*/[Dd]ebug*/
+*/[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# IDE
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+xcuserdata
+*.xcworkspace
+*.xcscheme
+*.pbxproj
+*.make
+Makefile
+*.plist
+.gitkeep
+*.xcconfig
 
-# Fortran module files
-*.mod
-*.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
-# Executables
-*.exe
-*.out
-*.app
+
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
