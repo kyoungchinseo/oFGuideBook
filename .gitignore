@@ -24,7 +24,7 @@
 */include/
 */lib/
 
-
+*.ttf
 # IDE
 
 # XCode
