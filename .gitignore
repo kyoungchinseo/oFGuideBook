@@ -18,6 +18,13 @@
 .svn/
 *.log
 
+*/bin/data/openni/
+*/bin/data/openni/config/
+*/bin/data/openni/lib/
+*/include/
+*/lib/
+
+
 # IDE
 
 # XCode
